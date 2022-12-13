@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="cine.css">
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="@Marshall.Liu_ @raianamagn">
+	<title>Cinema Pop Iguatu</title>
+	<script src="/script.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&family=Roboto+Mono:wght@200&display=swap');
+	</style>
+	
+</head>
+<body>
+	<div class="header">
+		<a href="" class="logo">Cimema Pop Iguatu</a>
+					<div class="header_direita">
+						<a href=""><span class="material-symbols-outlined">
+			home
+			</span></a>
+						<a href="/carrinho.html" target="blank"><span class="material-symbols-outlined">
+			shopping_cart
+			</span></a>
+						<a href="sobre.html" target="blank"><span class="material-symbols-outlined">
+			more_horiz
+			</span></a>
+					</div>
+					
+				</div>
+
+	<nav class="produtos_filtro">
+		<h1>Filmes em Cartaz
+			<label></label>
+				<select>
+					<option>Em Exibição</option>
+					<option>Proximas Semanas</option>
+					<option>Mês que vem </option>
+				</select></h1>
+		<div class="sort">
+			<div class="item_sort">
+				<label>Filtrar por:</label>
+				<select>
+					<option>Ver todos</option>
+                    <option>Comedia</option>
+                    <option>Ação</option>
+                    <option>Terror</option>
+                    <option>Romance</option>
+                    <option>Contos de Fada</option>
+                    <option>Anime</option>
+                    <option>Infantil</option>
+				</select>
+			</div>
+			<div class="item_sort">
+				<label>Ordenar:</label>
+				<select>
+					<option>Lançamentos</option>
+					<option>Em cartaz</option>
+					<option>Vai ser lançado em breve</option>
+					<option>Top 10</option>
+				</select>
+			</div>
+		</div>
+	</nav>
+
+ 	<div class="produtos_container">
+
+ 		<div class="produto_card">
+ 			<div class="produto_imagem">
+ 				<img src="">
+				<img id="midea1"  onclick="toggle_midea()" src="menu.png.jpg">
+ 			
+				<video  id="midea2" onclick="toggle_midea()" width="320" height="240" controls="controls" autoplay="autoplay">
+				<source src="/Menu.mp4" type="video/mp4" hidden>
+				<object data="" width="320" height="240">
+				<embed width="320" height="240" src="Yes Bank Advertisment.mp4">
+				</object>
+				</video>
+ 			</div>
+ 			<div class="produto_info">
+ 				<h5>Menu</h5>
+                <h5>Um jovem casal visita um restaurante exclusivo em uma ilha remota onde o aclamado chef prepara um delicioso menu e algumas surpresas chocantes.</h5>
+ 				<h6><label>Ingresso</label>
+				<select>
+					<option>Interira $45,00$</option>
+					<option>Meia 22,50$</option>
+					<option>Estudante 20,50$ </option>
+					<option>Criança 12,50$</option>
+				</select></h6>
+                
+ 			</div>
+ 		</div>
+
+ 		<div class="produto_card">
+ 			<div class="produto_imagem">
+ 				<img id="midea1"  onclick="toggle_midea()" src="avatar.png.jpg">
+ 			
+				<video  id="midea2" onclick="toggle_midea()" width="320" height="240" controls="controls" autoplay="autoplay">
+				<source src="/2321f441-ef94-492c-8b3d-f9d64ff45727.mp4" type="video/mp4" hidden>
+				<object data="" width="320" height="240">
+				<embed width="320" height="240" src="Yes Bank Advertisment.mp4">
+				</object>
+				</video>
+			</div>
+ 			<div class="produto_info">
+ 				<h5>Avatar: O Caminho da Água</h5>
+                <h5> Após formar uma família, Jake Sully e Ney'tiri fazem de tudo para ficarem juntos. No entanto, eles devem sair de casa e explorar as regiões de Pandora quando uma antiga ameaça ressurge, e Jake deve travar uma guerra difícil contra os humanos.</h5>
+ 				<h6><label>Ingresso</label>
+				<select>
+					<option>Interira $45,00$</option>
+					<option>Meia 22,50$</option>
+					<option>Estudante 20,50$ </option>
+					<option>Criança 12,50$</option>
+				</select></h6>
+				
+ 			</div>
+ 		</div>
+ 		<div class="produto_card">
+ 			<div class="produto_imagem">
+ 				<img src="">
+				<img id="midea1"  onclick="toggle_midea()" src="minions.png.jpg">
+ 			
+				<video  id="midea2" onclick="toggle_midea()" width="320" height="240" controls="controls" autoplay="autoplay">
+				<source src="/Minions 2 A Origem de Gru.mp4" type="video/mp4" hidden>
+				<object data="" width="320" height="240">
+				<embed width="320" height="240" src="Yes Bank Advertisment.mp4">
+				</object>
+				</video>
+ 			</div>
+ 			<div class="produto_info">
+ 				<h5>Minions 2 "A Origem de Gru"</h5>
+                <h5>Nos anos 1970, o jovem Gru tenta entrar para um time de supervilões, mas a entrevista é desastrosa e ele e seus minions acabam fugindo do grupo de mal-feitores.</h5>
+ 				<h6>
+					<label>Ingresso</label>
+				<select>
+					<option>Interira $45,00$</option>
+					<option>Meia 22,50$</option>
+					<option>Estudante 20,50$ </option>
+					<option>Criança 12,50$</option>
+				</select></h6>
+ 			</div>
+ 		</div>
+ 		<div class="produto_card">
+ 			<div class="produto_imagem">
+				<img id="midea1"  onclick="toggle_midea()" src="violente.png.jpg">
+ 			
+				<video  id="midea2" onclick="toggle_midea()" width="320" height="240" controls="controls" autoplay="autoplay">
+				<source src="/Noite infeliz.mp4" type="video/mp4" hidden>
+				<object data="" width="320" height="240">
+				<embed width="320" height="240" src="Yes Bank Advertisment.mp4">
+				</object>
+				</video>
+ 			</div>
+ 			<div class="produto_info">
+ 				<h5>Violent Night </h5>
+                <h5>Uma equipe de elite de mercenários invade um complexo familiar na véspera de Natal, deixando todos reféns. No entanto, eles não estão preparados para um combatente surpresa: Papai Noel está no local.</h5>
+ 				<h6><label>Ingresso</label>
+				<select>
+					<option>Interira $45,00$</option>
+					<option>Meia 22,50$</option>
+					<option>Estudante 20,50$ </option>
+					<option>Criança 12,50$</option>
+				</select></h6>
+ 			</div>
+ 		</div>
+ 		<div class="produto_card">
+ 			<div class="produto_imagem">
+ 				<img src="adao.png.jpg" id="midea1"  onclick="toggle_midea()">
+ 			
+				<video  id="midea2" onclick="toggle_midea()" width="320" height="240" controls="controls" autoplay="autoplay">
+				<source src="/Adão Negro.mp4" type="video/mp4" hidden>
+				<object data="" width="320" height="240">
+				<embed width="320" height="240" src="Yes Bank Advertisment.mp4">
+				</object>
+				</video>>
+ 			</div>
+ 			<div class="produto_info">
+ 				<h5>Adão Negro</h5>
+                <h5>O poderoso Adão Negro é libertado de sua tumba para lançar sua justiça cruel sobre a Terra.</h5>
+ 				<h6><label>Ingresso</label>
+				<select>
+					<option>Interira $45,00$</option>
+					<option>Meia 22,50$</option>
+					<option>Estudante 20,50$ </option>
+					<option>Criança 12,50$</option>
+				</select></h6>
+ 			</div>
+ 		</div>
+ 		<div class="produto_card">
+ 			<div class="produto_imagem">
+ 				<img id="midea1"  onclick="toggle_midea()" src="thor.png.jpg">
+ 			
+				<video  id="midea2" onclick="toggle_midea()" width="320" height="240" controls="controls" autoplay="autoplay">
+				<source src="/Thor Amor e Trovão.mp4" type="video/mp4" hidden>
+				<object data="" width="320" height="240">
+				<embed width="320" height="240" src="Yes Bank Advertisment.mp4">
+				</object>
+				</video>>
+ 			</div>
+ 			<div class="produto_info">
+ 				<h5>Thor: Love and Thunder</h5>
+                <h5>Thor (Chris Hemsworth) entra em uma jornada diferente em busca da paz interior, vivendo longe das atitudes heroicas e dos perigos constantes. Mas sua aposentadoria é interrompida por um assassino galáctico conhecido como Gorr (Christian Bale), que busca a extinção dos deuses.</h5>
+ 				<h6><label>Ingresso</label>
+				<select>
+					<option>Interira $45,00$</option>
+					<option>Meia 22,50$</option>
+					<option>Estudante 20,50$ </option>
+					<option>Criança 12,50$</option>
+				</select></h6>
+ 			</div>
+ 		</div>
+ 		<div class="produto_card">
+ 			<div class="produto_imagem">
+ 				<img id="midea1"  onclick="toggle_midea()" src="pantera.png.jpg">
+ 			
+				<video  id="midea2" onclick="toggle_midea()" width="320" height="240" controls="controls" autoplay="autoplay">
+				<source src="/pantera negra.mp4" type="video/mp4" hidden>
+				<object data="" width="320" height="240">
+				<embed width="320" height="240" src="Yes Bank Advertisment.mp4">
+				</object>
+				</video>
+ 			</div>
+ 			<div class="produto_info">
+ 				<h5>Pantera Negra: Wakanda Para Sempre</h5>
+                <h5>Rainha Ramonda, Shuri, M'Baku, Okoye e Dora Milaje lutam para proteger sua nação das potências mundiais intervenientes após a morte do rei T'Challa.</h5>
+ 				<h6><label>Ingresso</label>
+				<select>
+					<option>Interira $45,00$</option>
+					<option>Meia 22,50$</option>
+					<option>Estudante 20,50$ </option>
+					<option>Criança 12,50$</option>
+				</select></h6>
+ 			</div>
+ 		</div>
+ 		<div class="produto_card">
+ 			<div class="produto_imagem">
+ 				<img src="trol.png.jpg" id="midea1"  onclick="toggle_midea()">
+ 			
+				<video  id="midea2" onclick="toggle_midea()" width="320" height="240" controls="controls" autoplay="autoplay">
+				<source src="/O Troll da Montanha  Trailer oficial  Netflix.mp4" type="video/mp4" hidden>
+				<object data="" width="320" height="240">
+				<embed width="320" height="240" src="Yes Bank Advertisment.mp4">
+				</object>
+				</video>
+ 			</div>
+ 			<div class="produto_info">
+ 				<h5> O Troll da Montanha</h5>
+                <h5>Uma explosão nas montanhas desperta um troll enfurecido. Para lidar com a onda de destruição e caos, as autoridades convocam uma destemida paleontologista.</h5>
+ 				<h6><label>Ingresso</label>
+				<select>
+					<option>Interira $45,00$</option>
+					<option>Meia 22,50$</option>
+					<option>Estudante 20,50$ </option>
+					<option>Criança 12,50$</option>
+				</select></h6>
+ 			</div>
+ 		</div>
+ 		<div class="produto_card">
+ 			<div class="produto_imagem">
+ 				<img src="pino.png.jpg" id="midea1"  onclick="toggle_midea()">
+ 			
+				<video  id="midea2" onclick="toggle_midea()" width="320" height="240" controls="controls" autoplay="autoplay">
+				<source src="/Pinóquio.mp4" type="video/mp4" hidden>
+				<object data="" width="320" height="240">
+				<embed width="320" height="240" src="Yes Bank Advertisment.mp4">
+				</object>
+				</video>
+ 			</div>
+ 			<div class="produto_info">
+ 				<h5>Pinocchio</h5>
+                <h5>O desejo de um pai solitário dá vida magicamente a um boneco de madeira, seu nome é Pinóquio. Confuso por ser tão diferente das outras crianças, Pinóquio foge de casa para encontrar seu lugar no mundo e se depara com perigo e aventura.</h5>
+ 				<h6><label>Ingresso</label>
+				<select>
+					<option>Interira $45,00$</option>
+					<option>Meia 22,50$</option>
+					<option>Estudante 20,50$ </option>
+					<option>Criança 12,50$</option>
+				</select></h6>
+ 			</div>
+ 		</div>
+ 		<div class="produto_card">
+ 			<div class="produto_imagem">
+ 				<img src="qui.png.jpeg" id="midea1"  onclick="toggle_midea()">
+ 			
+				<video  id="midea2" onclick="toggle_midea()" width="320" height="240" controls="controls" autoplay="autoplay">
+				<source src="/Bem-Vinda A Quixeramobim.mp4" type="video/mp4" hidden>
+				<object data="" width="320" height="240">
+				<embed width="320" height="240" src="Yes Bank Advertisment.mp4">
+				</object>
+				</video>
+ 			</div>
+ 			<div class="produto_info">
+ 				<h5>Bem-vinda a Quixeramobim</h5>
+                <h5>Herdeira de um empresário envolvido em um esquema de corrupção, Aimée muda sua realidade quando foge para Quixeramobim, onde fica a última propriedade de sua família.</h5>
+ 				<h6>
+					<label>Ingresso</label>
+				<select>
+					<option>Interira $45,00$</option>
+					<option>Meia 22,50$</option>
+					<option>Estudante 20,50$ </option>
+					<option>Criança 12,50$</option>
+				</select></h6>
+ 			</div>
+ 		</div>
+
+ 	</div>
+
+
+</body>
+</html>

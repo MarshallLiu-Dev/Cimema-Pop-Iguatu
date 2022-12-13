@@ -17,7 +17,7 @@ body{
 
 .produto_card:hover{
 	box-shadow: 0 8px 16px 0 rgba(241, 239, 239, 0.2);
-	/*box-shadow: 5px 5px 5px lightblue;*/
+	box-shadow: 5px 5px 5px 5px rgb(11, 20, 22);
 }
 .produto_imagem img{
 	max-width: 100%;
@@ -41,12 +41,12 @@ body{
     color: white;
 }
 
-h5, h1{
+h5{
 	font-family: 'Noto Serif Georgian', sans-serif;
     color: white;
 }
 
-h6{
+h6, h1{
  	font-family: 'Roboto Mono', monospace;
     color: red;
 }
@@ -57,6 +57,7 @@ h6{
 	justify-content: space-around;
 	padding: 2%;
     color: white;
+	align-items: baseline;
 }
 
 .header_direita{
@@ -82,23 +83,26 @@ a:link {
 a:hover{
 	text-shadow: 1px 1px white;
 	box-shadow: 5px 5px 5px lightblue;
-	background-color: hotpink;
+	background-color:rgb(11, 20, 22);
 	color: black;
 	border: 1px solid black;
 }
 
-#contato{
+.contato{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
     color: white;
 }
 
-#formulario{
+.formulario{
 	display: flex;
 	flex-direction: column;
 }
 
 input, textarea{
 	margin-bottom: 30px;
+}
+.material-symbols-outlined{
+	color: red;
 }
